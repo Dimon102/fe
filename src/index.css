@@ -1,0 +1,76 @@
+#root {
+    width: 100%;
+}
+
+.header{
+    background: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.header_name{
+    flex-basis: 25%;
+}
+.header_info{
+    flex-basis: 25%;
+}
+.header_buttons{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.header_avatar{
+    background-color: #87d068;
+}
+
+.header_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_open_button_profile{
+    padding-left: 5px;
+}
+
+.checkbox_logo{
+    width: 5%;
+    height: 5%;
+}
+
+.content{
+    padding: 0px 15px;
+    min-height: 600px;
+}
+
+.news_page{
+    display: flex;
+    flex-direction: column;
+}
+
+.news_and_filter{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+}
+
+.news_filter{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.news_cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
